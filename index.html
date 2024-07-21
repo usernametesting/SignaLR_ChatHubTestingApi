@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsiveStyle.css">
+
+    <!-- added jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- alertify -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/css/alertify.min.css"
+        integrity="sha512-IXuoq1aFd2wXs4NqGskwX2Vb+I8UJ+tGJEu/Dc0zwLNKeQ7CW3Sr6v0yU3z5OQWe3eScVIkER4J9L7byrgR/fA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/alertify.js"
+        integrity="sha512-eOUPKZXJTfgptSYQqVilRmxUNYm0XVHwcRHD4mdtCLWf/fC9XWe98IT8H1xzBkLL4Mo9GL0xWMSJtgS5te9rQA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- signaLR -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.0/signalr.min.js"></script>
+
+    <!-- app js -->
+    <script defer src="./app.js"></script>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsiveStyle.css">
+</head>
+
+<body>
+    <!-- body-div -->
+    <div class="body-div">
+
+        <!-- header-div -->
+        <div class="header-div">
+            <h1>Hello Again!</h1>
+            <p>Welcome Back</p>
+        </div>
+
+        <!-- inputs-div -->
+        <div class="form-div">
+            <form class="form">
+
+                <div class="input-div">
+                    <div class="input-content">
+                        <i class="fa-regular fa-envelope"></i>
+                        <label>Email Address</label>
+                    </div>
+                    <input class="input" type="email" id="login-email">
+
+                </div>
+
+                <div class="input-div">
+                    <div class="input-content">
+                        <i class="fa-solid fa-lock" style="color: lightgray;"></i>
+                        <label>Password</label>
+                    </div>
+                    <input class="input" type="password" id="login-password">
+
+                </div>
+                <input type="button" value="Login" class="input-btn" id="login-btn">
+            </form>
+
+            <!-- register link -->
+            <div class="register-div">
+                <p>Do not have account?</p>
+                <a href="#" class="switchLink" id="register">Register</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.0/signalr.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./app.js"></script>
+</head>
+<body>
+   
+    <body>
+        <div>
+            <input type="text" id="userInput" placeholder="Name" />
+            <br />
+            <input type="text" id="messageInput" placeholder="Message" />
+            <br />
+            <button id="sendButton">Send</button>
+            <ul id="messagesList"></ul>
+        </div>
+    
+    
+    </body>
+</body>
+</html> -->

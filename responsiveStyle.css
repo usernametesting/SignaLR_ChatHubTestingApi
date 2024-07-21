@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+
+    /* order page */
+    .component-item {
+        flex-direction: column;
+    }
+
+    .component-item .right-panel {
+        order: -1;
+    }
+
+    .special-right-side-part-2 {
+        order: 1;
+    }
+
+    .right-panel {
+        flex-direction: column;
+    }
+
+    .order-body .right-panel .left {
+        flex-direction: row;
+        order: 1;
+        gap: 15vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .header-div h1 {
+        font-size: 38px;
+    }
+
+    .header-div p {
+        font-size: 20px;
+    }
+
+    .form input {
+        width: 80vw;
+    }
+
+    /* products page */
+    .navbar {
+        flex-direction: column;
+    }
+
+    .product-navbar-icon {
+        font-size: 20px;
+    }
+
+    .left-side-links,
+    .center-side-links,
+    .right-side-links {
+        display: none;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        display: none;
+    }
+
+    .links.hidden {
+        display: none;
+    }
+
+    .btns {
+        display: flex;
+        gap: 80vw;
+    }
+
+
+}
+
+@media (max-width: 700px) {
+    .form-seperator-div {
+        flex-direction: column;
+    }
+
+    .form-seperator-div input {
+        width: 400px;
+    }
+
+    .form input {
+        width: 80vw;
+    }
+
+    /* products page */
+    .navbar {
+        display: flex;
+        gap: 25vw;
+    }
+
+}
+
+
+
+@media (max-width: 500px) {
+
+    /* products page */
+    .product-body .main {
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    /* ORDER PAGE */
+
+    .component-item {
+        gap: 20vw;
+    }
+}
+
+
+@media (max-width: 850px) {
+
+    /* details page */
+    .detail-body .right-side .right-side-part-1 img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .detail-body .right-side {
+        display: flex;
+        gap: 2vw;
+    }
+
+    .component-item {
+        gap: 20vw;
+    }
+}
+
+@media (max-width: 680px) {
+
+    /* details page */
+    .detail-body {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .detail-body .right-side {
+        flex-direction: column;
+    }
+
+    /* ORDER PAGE */
+
+    .component-item {
+        gap: 10vw;
+    }
+
+
+    .detail-body .left-side {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+
+
+}
